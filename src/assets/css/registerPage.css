@@ -1,0 +1,30 @@
+.leftColumn {
+  background-color: #303c6c;
+  color: #fff;
+  padding-top: 30px;
+}
+
+.leftColumn h2,
+.leftColumn p {
+  color: #fff;
+}
+
+.rightColumn {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.registerPage {
+  padding-top: 30px;
+  background-color: #ffeeb5 !important;
+  min-height: calc(100vh - 65px);
+}
+
+.App {
+}
+
+.h1 {
+  text-align: left;
+  font-size: 29px;
+}

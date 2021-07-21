@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: rgb(77, 77, 77);
+}
+
+body,
+p,
+form,
+input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgb(77, 77, 77);
+}

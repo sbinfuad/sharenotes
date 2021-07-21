@@ -1,0 +1,34 @@
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.itemCardTitle {
+  font-size: 0.9rem !important;
+  font-weight: 600 !important;
+}
+
+.itemCardImage {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+.itemRating {
+  float: left;
+  margin-left: 10px;
+  margin-top: 1px;
+}
+
+.itemRatingBold {
+  color: rgb(49, 49, 49);
+  font-weight: 700;
+}
+
+.p2 {
+  font-size: 0.8rem;
+  color: gray;
+}

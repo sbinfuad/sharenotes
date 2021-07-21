@@ -1,0 +1,125 @@
+#navbar {
+  background-color: #303c6c;
+  height: 65px;
+}
+
+#fil {
+  background-color: white;
+  color: white;
+  padding-left: 50px;
+}
+
+.seachBar {
+  height: 45px;
+}
+
+.searchbar.form-control {
+  height: 45px;
+}
+
+#uploadBtn {
+  background-color: coral;
+  height: 45px;
+}
+
+#profileBtn {
+  background-color: #303c6c;
+  border-color: #303c6c;
+  font-weight: bold;
+  height: 50px;
+}
+
+#profilePic {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+  padding-bottom: 1px;
+}
+
+#filterBtn {
+  background-color: white;
+  color: black;
+  height: 45px;
+  border-radius: 5px;
+  border-color: #303c6c;
+}
+
+.filterButtonContainer .dropdown-menu {
+  min-width: 250px !important;
+  padding: 5px;
+}
+
+.filterButtonContainer .dropdown-menu input {
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.navbar-expand-lg {
+  display: flex;
+}
+#logo {
+  position: relative;
+  height: 50px;
+}
+
+#locationBtn {
+  background-color: white;
+  color: black;
+  height: 45px;
+  border-color: #303c6c;
+  border-radius: 5px;
+}
+
+.navFilter {
+  width: 200px;
+}
+
+#locationIcon {
+  position: relative;
+  top: 1px;
+  right: 3px;
+}
+
+#navbarToggleIcon {
+  position: relative;
+  background-color: #ffffff;
+  bottom: 5px;
+}
+
+.dropdown-toggle::after {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+@media (max-width: 990px) {
+  #logo {
+    position: relative;
+    height: 50px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 990px) {
+  #uploadBtn {
+    width: 100%;
+  }
+  #locationBtn {
+    border-radius: 5px;
+    width: 100%;
+  }
+  #profileBtn {
+    width: 100%;
+  }
+  #filterBtn {
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  #basic-navbar-nav {
+    background-color: #fff;
+    z-index: 100;
+  }
+}
